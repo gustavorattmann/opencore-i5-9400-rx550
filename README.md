@@ -13,6 +13,10 @@
 ## Dica
 Mantenha sempre um backup da útlima versão do Opencore que você criar ou alterar em um pen drive, para prevenção e manutenção.
 
+Faça uma análise nas pastas de Kexts, ACPI e drivers e remova o que não for utilizar, depois faça um snapshot na configuração do OC para atualizar apenas com o que manteve. Esse passo também deve ser feito se adicionar algum novo.
+
+Outro ajuste necessário é adicionar uma SMBIOS válida para permitir que algumas funcionalidades executem da forma correta como FaceTime e Mensagens.
+
 ## Versão do Opencore
 0.9.5
 
