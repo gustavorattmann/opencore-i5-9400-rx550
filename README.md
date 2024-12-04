@@ -20,7 +20,7 @@ Faça uma análise nas pastas de Kexts, ACPI e drivers e remova o que não for u
 
 Outro ajuste necessário é adicionar uma SMBIOS válida para permitir que algumas funcionalidades executem da forma correta como FaceTime e Mensagens.
 
-**Nota:** Caso utilize algum SSD NVME da Samsung, poderá enfrentar lentidão durante o boot... Para resolver, precisa alterar o valor da propriedade "**SetApfsTrimTimeout**" de "**-1**" para "**0**" (No meu caso o tempo de boot que era cerca de 1 minuto caiu para 15 segundos).
+**Nota:** Caso utilize algum SSD NVME da Samsung, poderá enfrentar lentidão durante o boot... Para resolver precisa alterar o valor da propriedade "**SetApfsTrimTimeout**" de "**-1**" para "**0**" (No meu caso o tempo de boot que era cerca de 1 minuto caiu para 15 segundos).
 
 ## Versão do Opencore
 
