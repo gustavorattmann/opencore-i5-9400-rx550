@@ -20,13 +20,15 @@ Faça uma análise nas pastas de Kexts, ACPI e drivers e remova o que não for u
 
 Outro ajuste necessário é adicionar uma SMBIOS válida para permitir que algumas funcionalidades executem da forma correta como FaceTime e Mensagens.
 
+**Nota:** Caso utilize algum SSD NVME da Samsung, poderá enfrentar lentidão durante o boot valor da propriedade "**SetApfsTrimTimeout**" de "**-1**" para "**0**" (Fiz isso e meu boot que era cerca de 1 minuto caiu para 15 segundos).
+
 ## Versão do Opencore
 
-0.9.9
+1.0.3
 
 ## Minha Versão do Mac
 
-Ventura (14.3.1)
+Sequoia (15.1.1)
 
 ## Versão mínima compatível com Mac
 
@@ -39,10 +41,10 @@ High Sierra (10.13)
 - Placa-mãe: ASUS TUF B360M-Plus Gaming/BR
 - Placa de vídeo: AMD Radeon Sapphire Pulse RX 550 4Gb
 - Fonte: Corsair CV650 80 Plus Bronze - 650 Watts
-- Armazenamento: SSD NVMe Samsung 970 EVO Plus 500Gb (MacOS Ventura)
+- Armazenamento: SSD NVMe Samsung 970 EVO Plus 500Gb (MacOS Sequoia)
 - SSD NVMe Kingspec 512Gb (Windows)
 - SSD Sata SanDisk 240Gb 2,5" (Linux)
-- HD Western Digital 1Tb 3,5" (Backup)
+- HD Western Digital 1Tb 3,5" (500Gb de Backup do MACOS/500Gb do diretório Home do Linux)
 - Cooler: Deep Cooler Gammaxx GTE V2
 - Ventoinhas: 5x Pichau Gaming Wave 120R Led Vermelho
 - Controlador de fan: DeepCool FH-10 PWM
